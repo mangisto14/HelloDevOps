@@ -1,0 +1,14 @@
+C:\Users\user\Repo\DevOps\CI-CD GitHub Actions\HelloDevOps\HelloDevOps\bin\Debug\net8.0\HelloDevOps.exe
+C:\Users\user\Repo\DevOps\CI-CD GitHub Actions\HelloDevOps\HelloDevOps\bin\Debug\net8.0\HelloDevOps.deps.json
+C:\Users\user\Repo\DevOps\CI-CD GitHub Actions\HelloDevOps\HelloDevOps\bin\Debug\net8.0\HelloDevOps.runtimeconfig.json
+C:\Users\user\Repo\DevOps\CI-CD GitHub Actions\HelloDevOps\HelloDevOps\bin\Debug\net8.0\HelloDevOps.dll
+C:\Users\user\Repo\DevOps\CI-CD GitHub Actions\HelloDevOps\HelloDevOps\bin\Debug\net8.0\HelloDevOps.pdb
+C:\Users\user\Repo\DevOps\CI-CD GitHub Actions\HelloDevOps\HelloDevOps\obj\Debug\net8.0\HelloDevOps.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Repo\DevOps\CI-CD GitHub Actions\HelloDevOps\HelloDevOps\obj\Debug\net8.0\HelloDevOps.AssemblyInfoInputs.cache
+C:\Users\user\Repo\DevOps\CI-CD GitHub Actions\HelloDevOps\HelloDevOps\obj\Debug\net8.0\HelloDevOps.AssemblyInfo.cs
+C:\Users\user\Repo\DevOps\CI-CD GitHub Actions\HelloDevOps\HelloDevOps\obj\Debug\net8.0\HelloDevOps.csproj.CoreCompileInputs.cache
+C:\Users\user\Repo\DevOps\CI-CD GitHub Actions\HelloDevOps\HelloDevOps\obj\Debug\net8.0\HelloDevOps.dll
+C:\Users\user\Repo\DevOps\CI-CD GitHub Actions\HelloDevOps\HelloDevOps\obj\Debug\net8.0\refint\HelloDevOps.dll
+C:\Users\user\Repo\DevOps\CI-CD GitHub Actions\HelloDevOps\HelloDevOps\obj\Debug\net8.0\HelloDevOps.pdb
+C:\Users\user\Repo\DevOps\CI-CD GitHub Actions\HelloDevOps\HelloDevOps\obj\Debug\net8.0\HelloDevOps.genruntimeconfig.cache
+C:\Users\user\Repo\DevOps\CI-CD GitHub Actions\HelloDevOps\HelloDevOps\obj\Debug\net8.0\ref\HelloDevOps.dll
