@@ -26,10 +26,20 @@ jobs:
     - name: Run Tests
       run: dotnet test --no-build --verbosity normal
 
-  deploy:
-    needs: build-and-test
+  # deploy:
+  #   needs: build-and-test
+  #   runs-on: ubuntu-latest
+  #   if: github.ref == 'refs/heads/main'  # רק אם זה push ל-main
+  #   steps:
+  #   - name: Fake Deploy Step
+  #     run: echo "✅ Deploy succeeded (placeholder)"
+
+  docker-build:
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main'  # רק אם זה push ל-main
+    needs: build-and-test
     steps:
-    - name: Fake Deploy Step
-      run: echo "✅ Deploy succeeded (placeholder)"
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Build Docker image
+      run: docker build -t hellodevops .
