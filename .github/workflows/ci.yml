@@ -53,3 +53,15 @@ jobs:
     - name: Push Docker image to DockerHub
       run: docker push ${{ secrets.DOCKER_USERNAME }}/hellodevops:latest
 
+  test-in-container:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Build test container
+        run: docker build -f Dockerfile.test -t hellodevops-test .
+
+      - name: Run unit tests in container
+        run: docker run --rm hellodevops-test

@@ -1,0 +1,14 @@
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS test
+WORKDIR /app
+
+COPY *.sln .
+COPY HelloDevOps/*.csproj ./HelloDevOps/
+COPY HelloDevOps.Tests/*.csproj ./HelloDevOps.Tests/
+
+RUN dotnet restore
+
+COPY . .
+
+RUN dotnet build --no-restore
+RUN dotnet test --no-build --verbosity normal
+
